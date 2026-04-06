@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Maven Settings (contains sensitive GitHub token) ###
+settings.xml

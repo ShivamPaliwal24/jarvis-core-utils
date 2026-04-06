@@ -6,7 +6,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class DateTimeUtils {
+public class DateTimeUtilsConverter {
 
     public static String toLocalDateTime(ZonedDateTime date) {
         return date.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime().format(DateTimeFormatter.ofPattern("d/M/yyyy, h:mm:ss a"));
